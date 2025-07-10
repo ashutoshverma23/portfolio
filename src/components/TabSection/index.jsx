@@ -52,6 +52,10 @@ const certifications = [
     title: "Introduction to Generative AI by Google Cloud",
     link: "https://www.coursera.org/account/accomplishments/certificate/M0BBW91TB4DB",
   },
+  {
+    title: "AWS Academy Graduate - Cloud Foundations",
+    link: "https://www.credly.com/go/zfNmOvdK",
+  },
 ];
 
 const TabSection = () => {
@@ -120,10 +124,10 @@ const TabSection = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: "linear", duration: 0.5 }}
-            className="w-full relative md:w-1/2 md:h-[450px]"
+            className="w-full relative md:w-1/2 md:h-[720px]"
           >
             {!isLoaded && (
-              <div className="absolute top-0 rounded-lg left-0 z-50 bg-primary-400 animate-pulse w-full md:h-[450px]" />
+              <div className="absolute top-0 rounded-lg left-0 z-50 bg-primary-400 animate-pulse w-full md:h-[720px]" />
             )}
             <img
               src={images.myProfile}
@@ -131,7 +135,7 @@ const TabSection = () => {
               alt="Image Felix"
               loading="lazy"
               width={664}
-              height={450}
+              height={720}
               onLoad={() => setIsLoaded(true)}
             />
           </motion.div>

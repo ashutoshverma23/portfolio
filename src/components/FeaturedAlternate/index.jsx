@@ -61,6 +61,14 @@ const projects = [
     react: true,
     mern: true,
   },
+  {
+    id: 5,
+    image: images.capvalis,
+    heading: "Capvalis - An AI authomation application for Equity trading",
+    description:
+      "<p>Developed a full-stack application using NextJS and TailwindCSS to automate the process of Equity trading using AI. This project also involves a custom-built AI model, which I have created separately and deployed using Flask as a microservice.</p>",
+    websiteLink: "https://capvalis.com",
+  },
 ];
 
 const CardGrid = () => {

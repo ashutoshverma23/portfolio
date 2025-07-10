@@ -18,7 +18,8 @@ import brandLogoDark from "../assets/icons/logo-dark.png";
 import hindlionss from "../assets/projects/hindlionss.png";
 import rickshaw from "../assets/projects/rickshaw.png";
 import saathi from "../assets/projects/saathi-website.png";
-import myProfile from "../assets/me.jpg";
+import myProfile from "../assets/me2.jpg";
+import capvalis from "../assets/projects/capvalis.jpg";
 
 export default {
   emailIcon,
@@ -42,4 +43,5 @@ export default {
   rickshaw,
   saathi,
   myProfile,
+  capvalis,
 };
